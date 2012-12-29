@@ -2,133 +2,188 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8" />
-<title>The Habitual Developer &raquo; Randy Burden&#039;s Software Development Related Ramblings</title>
-<meta name="description" content="Randy Burden&#039;s Software Development Related Ramblings">
-<link rel="canonical" href="http://randyburden.com/blog/">
+<meta name="viewport" content="width=device-width" />
+<title>The Habitual Developer | Randy Burden&#039;s Software Development Related Ramblings</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<!--[if lt IE 9]>
+<script src="http://randyburden.com/blog/wp-content/themes/reddle/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
 <link rel="alternate" type="application/rss+xml" title="The Habitual Developer &raquo; Feed" href="http://randyburden.com/blog/feed/" />
 <link rel="alternate" type="application/rss+xml" title="The Habitual Developer &raquo; Comments Feed" href="http://randyburden.com/blog/comments/feed/" />
-<link rel='stylesheet' id='nifty-css'  href='http://randyburden.com/blog/wp-content/themes/nifty/style.css?ver=12.09.2' type='text/css' media='screen' />
-<script type='text/javascript' src='http://randyburden.com/blog/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<link rel='stylesheet' id='reddle-style-css'  href='http://randyburden.com/blog/wp-content/themes/reddle/style.css?ver=3.5' type='text/css' media='all' />
 <meta name="generator" content="WordPress 3.5 - really-static 0.5" />
-<meta name="generator" content="Nifty 12.09.2">
-<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.3" />
+	<style type="text/css">
+	#masthead img {
+		float: left;
+	}
+			#site-description {
+			color: #777 !important;
+		}
+				#header-image {
+			margin-bottom: 3.23em;
+		}
+		</style>
+	<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.3" />
 </head>
 
-<body class="wordpress en_US parent-theme y2012 m12 d19 h10 wednesday logged-out home blog layout-2c-l">
-
-
-<div id="body-container">
-
-	
-	
-	<div id="header">
-
-		<div class="wrapper">
-
-			<div id="branding"><h1 id="site-title"><a href="http://randyburden.com/blog/" title="The Habitual Developer" rel="home"><span>The Habitual Developer</span></a></h1><h2 id="site-description"><span>Randy Burden&#039;s Software Development Related Ramblings</span></h2></div> <!-- #branding -->
-
-		</div> <!-- .wrapper -->
-
-	</div> <!-- #header -->
-
-	
-	
-	<div id="container">
-
-		<div class="wrapper">
+<body class="home blog primary indexed single-author fluid">
+<div id="page" class="hfeed">
+	<header id="masthead" role="banner">
+		<hgroup>
+			<h1 id="site-title"><a href="http://randyburden.com/blog/" title="The Habitual Developer" rel="home">The Habitual Developer</a></h1>
+			<h2 id="site-description">Randy Burden&#039;s Software Development Related Ramblings</h2>
+		</hgroup>
 
 		
-		
-	
-	<div id="content">
+			</header><!-- #masthead -->
 
-		
-		<div class="hfeed">
-
-		
-			
-	
+	<div id="main">
+		<div id="primary">
+			<div id="content" role="main">
 
 			
-			
-			<div id="post-339" class="post-339 post type-post status-publish format-standard hentry category-software-development">
+					<nav id="nav-above">
+		<h1 class="assistive-text section-heading">Post navigation</h1>
 
-				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/" title="Querying Over Multiple Child Collections With NHibernate Part 2" rel="bookmark">Querying Over Multiple Child Collections With NHibernate Part 2</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Wednesday, November 14th, 2012, 12:45 pm">November 14, 2012</abbr> </p>
-				<div class="entry-content">
+	
+				<div class="nav-previous"><a href="http://randyburden.com/blog/page/2.html" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		
+		
+	
+	</nav><!-- #nav-above -->
+	
+								
+					
+<article id="post-339" class="post-339 post type-post status-publish format-standard hentry category-software-development">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/" title="Permalink to Querying Over Multiple Child Collections With NHibernate Part 2" rel="bookmark">Querying Over Multiple Child Collections With NHibernate Part 2</a></h1>
 
-					<p>In a previous post, I demonstrated how one could gain access to child collections using LINQ query syntax. I recently answered a question on StackOverflow where someone wanted to know how to do this using lambdas:<br />
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>In a previous post, I demonstrated how one could gain access to child collections using LINQ query syntax. I recently answered a question on StackOverflow where someone wanted to know how to do this using lambdas:<br />
 <a href="http://stackoverflow.com/a/13384359/670028" target="_blank">Link to Answer On StackOverflow</a></p>
 <p> <a href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/#more-339" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a></span>  | <a href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/#respond" title="Comment on Querying Over Multiple Child Collections With NHibernate Part 2">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>			</p>
 			
-			
-			
-			<div id="post-328" class="post-328 post type-post status-publish format-standard hentry category-software-development category-sql tag-t-sql">
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/" title="Permalink to Querying Over Multiple Child Collections With NHibernate Part 2" rel="bookmark" class="permalink"><span class="month">Nov</span><span class="sep">&middot;</span><span class="day">14</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-339 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2012/09/06/t-sql-the-subtle-false-assumption-one-can-make-when-using-select-to-assign-a-value-to-a-variable/" title="T-SQL &#8211; The Subtle False Assumption One Can Make When Using SELECT to Assign a Value To a Variable" rel="bookmark">T-SQL &#8211; The Subtle False Assumption One Can Make When Using SELECT to Assign a Value To a Variable</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Thursday, September 6th, 2012, 2:41 pm">September 6, 2012</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-328" class="post-328 post type-post status-publish format-standard hentry category-software-development category-sql tag-t-sql">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2012/09/06/t-sql-the-subtle-false-assumption-one-can-make-when-using-select-to-assign-a-value-to-a-variable/" title="Permalink to T-SQL &#8211; The Subtle False Assumption One Can Make When Using SELECT to Assign a Value To a Variable" rel="bookmark">T-SQL &#8211; The Subtle False Assumption One Can Make When Using SELECT to Assign a Value To a Variable</a></h1>
 
-					<p>There are a few subtleties when using SELECT to assign a value to a SQL variable. The one we will highlight today is what occurs when the result set of the SELECT is empty.</p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>There are a few subtleties when using SELECT to assign a value to a SQL variable. The one we will highlight today is what occurs when the result set of the SELECT is empty.</p>
 <p> <a href="http://randyburden.com/blog/2012/09/06/t-sql-the-subtle-false-assumption-one-can-make-when-using-select-to-assign-a-value-to-a-variable/#more-328" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/sql//index.html" rel="tag">SQL</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/t-sql//index.html" rel="tag">t-sql</a></span> | <a href="http://randyburden.com/blog/2012/09/06/t-sql-the-subtle-false-assumption-one-can-make-when-using-select-to-assign-a-value-to-a-variable/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2012/09/06/t-sql-the-subtle-false-assumption-one-can-make-when-using-select-to-assign-a-value-to-a-variable/#respond" title="Comment on T-SQL &#8211; The Subtle False Assumption One Can Make When Using SELECT to Assign a Value To a Variable">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/sql//index.html" title="View all posts in SQL" rel="category tag">SQL</a>			</p>
 			
-			
-			
-			<div id="post-286" class="post-286 post type-post status-publish format-standard hentry category-csharp category-nhibernate category-software-development category-sql tag-csharp tag-nhibernate tag-t-sql">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/t-sql//index.html" rel="tag">t-sql</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2012/09/06/t-sql-the-subtle-false-assumption-one-can-make-when-using-select-to-assign-a-value-to-a-variable/" title="Permalink to T-SQL &#8211; The Subtle False Assumption One Can Make When Using SELECT to Assign a Value To a Variable" rel="bookmark" class="permalink"><span class="month">Sep</span><span class="sep">&middot;</span><span class="day">06</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-328 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2012/08/27/querying-over-multiple-child-collections-with-nhibernate/" title="Querying Over Multiple Child Collections With NHibernate" rel="bookmark">Querying Over Multiple Child Collections With NHibernate</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Monday, August 27th, 2012, 5:13 pm">August 27, 2012</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-286" class="post-286 post type-post status-publish format-standard hentry category-csharp category-nhibernate category-software-development category-sql tag-csharp tag-nhibernate tag-t-sql">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2012/08/27/querying-over-multiple-child-collections-with-nhibernate/" title="Permalink to Querying Over Multiple Child Collections With NHibernate" rel="bookmark">Querying Over Multiple Child Collections With NHibernate</a></h1>
 
-					<p>Typically with NHibernate, I&#8217;m always querying over one table and eager fetching it&#8217;s child collections. I&#8217;m also only performing WHERE conditions on that initial table I am querying over.</p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Typically with NHibernate, I&#8217;m always querying over one table and eager fetching it&#8217;s child collections. I&#8217;m also only performing WHERE conditions on that initial table I am querying over.</p>
 <p>The other day though, I needed to solve a problem where I was adding WHERE conditions to the child collections. Now in SQL, this is quite easy but in NHibernate, it took me a while to figure out how to do this efficiently.</p>
 <p> <a href="http://randyburden.com/blog/2012/08/27/querying-over-multiple-child-collections-with-nhibernate/#more-286" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development/programming/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/category/software-development/nhibernate//index.html" rel="tag">NHibernate</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/sql//index.html" rel="tag">SQL</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/tag/nhibernate//index.html" rel="tag">NHibernate</a>, <a href="http://randyburden.com/blog/tag/t-sql//index.html" rel="tag">t-sql</a></span> | <a href="http://randyburden.com/blog/2012/08/27/querying-over-multiple-child-collections-with-nhibernate/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2012/08/27/querying-over-multiple-child-collections-with-nhibernate/#respond" title="Comment on Querying Over Multiple Child Collections With NHibernate">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development/programming/csharp//index.html" title="View all posts in C#" rel="category tag">C#</a>, <a href="http://randyburden.com/blog/category/software-development/nhibernate//index.html" title="View all posts in NHibernate" rel="category tag">NHibernate</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/sql//index.html" title="View all posts in SQL" rel="category tag">SQL</a>			</p>
 			
-			
-			
-			<div id="post-269" class="post-269 post type-post status-publish format-standard hentry category-it tag-query-server tag-who-is-logged-in">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/tag/nhibernate//index.html" rel="tag">NHibernate</a>, <a href="http://randyburden.com/blog/tag/t-sql//index.html" rel="tag">t-sql</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2012/08/27/querying-over-multiple-child-collections-with-nhibernate/" title="Permalink to Querying Over Multiple Child Collections With NHibernate" rel="bookmark" class="permalink"><span class="month">Aug</span><span class="sep">&middot;</span><span class="day">27</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-286 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/11/17/who-is-on-the-server/" title="Who is on the Server?" rel="bookmark">Who is on the Server?</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Thursday, November 17th, 2011, 2:32 pm">November 17, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-269" class="post-269 post type-post status-publish format-standard hentry category-it tag-query-server tag-who-is-logged-in">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/11/17/who-is-on-the-server/" title="Permalink to Who is on the Server?" rel="bookmark">Who is on the Server?</a></h1>
 
-					<p>Do you have a busy server that a lot of folks are always on?</p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Do you have a busy server that a lot of folks are always on?</p>
 <p>Do you ever get this dreaded message indicating too many people are already on?</p>
 <p> <a href="http://randyburden.com/blog/2011/11/17/who-is-on-the-server/#more-269" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/it//index.html" rel="tag">IT</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/query-server//index.html" rel="tag">query server</a>, <a href="http://randyburden.com/blog/tag/who-is-logged-in//index.html" rel="tag">who is logged in</a></span> | <a href="http://randyburden.com/blog/2011/11/17/who-is-on-the-server/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/11/17/who-is-on-the-server/#respond" title="Comment on Who is on the Server?">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/it//index.html" title="View all posts in IT" rel="category tag">IT</a>			</p>
 			
-			
-			
-			<div id="post-249" class="post-249 post type-post status-publish format-standard hentry category-programming category-software-development category-structuremap">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/query-server//index.html" rel="tag">query server</a>, <a href="http://randyburden.com/blog/tag/who-is-logged-in//index.html" rel="tag">who is logged in</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/11/17/who-is-on-the-server/" title="Permalink to Who is on the Server?" rel="bookmark" class="permalink"><span class="month">Nov</span><span class="sep">&middot;</span><span class="day">17</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-269 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/10/25/integrating-structuremap-in-an-mvc-3-project-dead-simple/" title="Integrating StructureMap in an MVC 3 Project = Dead Simple" rel="bookmark">Integrating StructureMap in an MVC 3 Project = Dead Simple</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Tuesday, October 25th, 2011, 5:13 pm">October 25, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-249" class="post-249 post type-post status-publish format-standard hentry category-programming category-software-development category-structuremap">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/10/25/integrating-structuremap-in-an-mvc-3-project-dead-simple/" title="Permalink to Integrating StructureMap in an MVC 3 Project = Dead Simple" rel="bookmark">Integrating StructureMap in an MVC 3 Project = Dead Simple</a></h1>
 
-					<p><span style="text-decoration: underline;">Integrating StructureMap in an MVC 3 Project:</span></p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="text-decoration: underline;">Integrating StructureMap in an MVC 3 Project:</span></p>
 <ol>
 <li>New MVC 3 Project</li>
 <li>Install StructureMap.MVC3 NuGet Package</li>
@@ -137,105 +192,168 @@
 <pre class="brush: csharp; title: ; notranslate" title="">
 DependencyResolver.SetResolver(new SmDependencyResolver(IoC.Initialize()));
 </pre>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development/programming//index.html" rel="tag">Programming</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/programming/structuremap//index.html" rel="tag">StructureMap</a></span>  | <a href="http://randyburden.com/blog/2011/10/25/integrating-structuremap-in-an-mvc-3-project-dead-simple/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/10/25/integrating-structuremap-in-an-mvc-3-project-dead-simple/#respond" title="Comment on Integrating StructureMap in an MVC 3 Project = Dead Simple">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development/programming//index.html" title="View all posts in Programming" rel="category tag">Programming</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/programming/structuremap//index.html" title="View all posts in StructureMap" rel="category tag">StructureMap</a>			</p>
 			
-			
-			
-			<div id="post-234" class="post-234 post type-post status-publish format-standard hentry category-dot-net-user-groups tag-net tag-user-group">
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/10/25/integrating-structuremap-in-an-mvc-3-project-dead-simple/" title="Permalink to Integrating StructureMap in an MVC 3 Project = Dead Simple" rel="bookmark" class="permalink"><span class="month">Oct</span><span class="sep">&middot;</span><span class="day">25</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-249 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/09/06/upcoming-net-user-group-meetings-september-2011/" title="Upcoming .NET User Group Meetings (September 2011)" rel="bookmark">Upcoming .NET User Group Meetings (September 2011)</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Tuesday, September 6th, 2011, 7:26 pm">September 6, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-234" class="post-234 post type-post status-publish format-standard hentry category-dot-net-user-groups tag-net tag-user-group">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/09/06/upcoming-net-user-group-meetings-september-2011/" title="Permalink to Upcoming .NET User Group Meetings (September 2011)" rel="bookmark">Upcoming .NET User Group Meetings (September 2011)</a></h1>
 
-					<p>Group: <strong>North Dallas .NET User Group<br />
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Group: <strong>North Dallas .NET User Group<br />
 </strong>Speaker: Keyvan Nayyeri<br />
 Topic: Parallel Programming in .NET</p>
 <p> <a href="http://randyburden.com/blog/2011/09/06/upcoming-net-user-group-meetings-september-2011/#more-234" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development/dot-net-user-groups//index.html" rel="tag">.NET User Groups</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/net//index.html" rel="tag">.NET</a>, <a href="http://randyburden.com/blog/tag/user-group//index.html" rel="tag">User Group</a></span> | <a href="http://randyburden.com/blog/2011/09/06/upcoming-net-user-group-meetings-september-2011/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/09/06/upcoming-net-user-group-meetings-september-2011/#respond" title="Comment on Upcoming .NET User Group Meetings (September 2011)">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development/dot-net-user-groups//index.html" title="View all posts in .NET User Groups" rel="category tag">.NET User Groups</a>			</p>
 			
-			
-			
-			<div id="post-221" class="post-221 post type-post status-publish format-standard hentry category-hardware category-visual-studio-2010">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/net//index.html" rel="tag">.NET</a>, <a href="http://randyburden.com/blog/tag/user-group//index.html" rel="tag">User Group</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/09/06/upcoming-net-user-group-meetings-september-2011/" title="Permalink to Upcoming .NET User Group Meetings (September 2011)" rel="bookmark" class="permalink"><span class="month">Sep</span><span class="sep">&middot;</span><span class="day">06</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-234 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/09/02/resolving-usb-to-dvi-vga-adapter-conflict-with-visual-studio-2010/" title="Resolving USB to DVI / VGA adapter conflict with Visual Studio 2010" rel="bookmark">Resolving USB to DVI / VGA adapter conflict with Visual Studio 2010</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Friday, September 2nd, 2011, 2:22 pm">September 2, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-221" class="post-221 post type-post status-publish format-standard hentry category-hardware category-visual-studio-2010">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/09/02/resolving-usb-to-dvi-vga-adapter-conflict-with-visual-studio-2010/" title="Permalink to Resolving USB to DVI / VGA adapter conflict with Visual Studio 2010" rel="bookmark">Resolving USB to DVI / VGA adapter conflict with Visual Studio 2010</a></h1>
 
-					<p>Having troubles running Visual Studio 2010 on a monitor connected through a USB to VGA or DVI adapter? Then your solution will most likely be to turn off hardware graphics acceleration.</p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Having troubles running Visual Studio 2010 on a monitor connected through a USB to VGA or DVI adapter? Then your solution will most likely be to turn off hardware graphics acceleration.</p>
 <p> <a href="http://randyburden.com/blog/2011/09/02/resolving-usb-to-dvi-vga-adapter-conflict-with-visual-studio-2010/#more-221" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/hardware//index.html" rel="tag">Hardware</a>, <a href="http://randyburden.com/blog/category/visual-studio-2010//index.html" rel="tag">Visual Studio 2010</a></span>  | <a href="http://randyburden.com/blog/2011/09/02/resolving-usb-to-dvi-vga-adapter-conflict-with-visual-studio-2010/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/09/02/resolving-usb-to-dvi-vga-adapter-conflict-with-visual-studio-2010/#comments" title="Comment on Resolving USB to DVI / VGA adapter conflict with Visual Studio 2010">2 Responses</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/hardware//index.html" title="View all posts in Hardware" rel="category tag">Hardware</a>, <a href="http://randyburden.com/blog/category/visual-studio-2010//index.html" title="View all posts in Visual Studio 2010" rel="category tag">Visual Studio 2010</a>			</p>
 			
-			
-			
-			<div id="post-154" class="post-154 post type-post status-publish format-standard hentry category-csharp category-html category-jquery category-mvc category-software-development tag-csharp tag-jquery tag-normalization">
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/09/02/resolving-usb-to-dvi-vga-adapter-conflict-with-visual-studio-2010/" title="Permalink to Resolving USB to DVI / VGA adapter conflict with Visual Studio 2010" rel="bookmark" class="permalink"><span class="month">Sep</span><span class="sep">&middot;</span><span class="day">02</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-221 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/08/25/mask-a-phone-number-field-but-only-save-the-numbers-using-jquery/" title="Mask a Phone Number Field but Only Save the Numbers using jQuery" rel="bookmark">Mask a Phone Number Field but Only Save the Numbers using jQuery</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Thursday, August 25th, 2011, 10:41 pm">August 25, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-154" class="post-154 post type-post status-publish format-standard hentry category-csharp category-html category-jquery category-mvc category-software-development tag-csharp tag-jquery tag-normalization">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/08/25/mask-a-phone-number-field-but-only-save-the-numbers-using-jquery/" title="Permalink to Mask a Phone Number Field but Only Save the Numbers using jQuery" rel="bookmark">Mask a Phone Number Field but Only Save the Numbers using jQuery</a></h1>
 
-					<p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>
 Masking a phone number field is relatively easy by utilizing one of the many jQuery masking plug-ins. It will turn your input field from this: 5554449999 into this: (555) 444-9999 which looks much nicer but at the same time that becomes the text that will be sent when you post back the form to the server.
 </p>
 <p> <a href="http://randyburden.com/blog/2011/08/25/mask-a-phone-number-field-but-only-save-the-numbers-using-jquery/#more-154" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development/programming/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/category/software-development/html//index.html" rel="tag">HTML</a>, <a href="http://randyburden.com/blog/category/software-development/jquery//index.html" rel="tag">jQuery</a>, <a href="http://randyburden.com/blog/category/software-development/mvc//index.html" rel="tag">MVC</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/tag/jquery//index.html" rel="tag">jQuery</a>, <a href="http://randyburden.com/blog/tag/normalization//index.html" rel="tag">Normalization</a></span> | <a href="http://randyburden.com/blog/2011/08/25/mask-a-phone-number-field-but-only-save-the-numbers-using-jquery/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/08/25/mask-a-phone-number-field-but-only-save-the-numbers-using-jquery/#respond" title="Comment on Mask a Phone Number Field but Only Save the Numbers using jQuery">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development/programming/csharp//index.html" title="View all posts in C#" rel="category tag">C#</a>, <a href="http://randyburden.com/blog/category/software-development/html//index.html" title="View all posts in HTML" rel="category tag">HTML</a>, <a href="http://randyburden.com/blog/category/software-development/jquery//index.html" title="View all posts in jQuery" rel="category tag">jQuery</a>, <a href="http://randyburden.com/blog/category/software-development/mvc//index.html" title="View all posts in MVC" rel="category tag">MVC</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>			</p>
 			
-			
-			
-			<div id="post-135" class="post-135 post type-post status-publish format-standard hentry category-csharp category-mvc category-programming category-software-development tag-asp-net tag-authorization tag-csharp tag-custom-action-filter tag-ip-address tag-mvc">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/tag/jquery//index.html" rel="tag">jQuery</a>, <a href="http://randyburden.com/blog/tag/normalization//index.html" rel="tag">Normalization</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/08/25/mask-a-phone-number-field-but-only-save-the-numbers-using-jquery/" title="Permalink to Mask a Phone Number Field but Only Save the Numbers using jQuery" rel="bookmark" class="permalink"><span class="month">Aug</span><span class="sep">&middot;</span><span class="day">25</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-154 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/08/09/restrict-access-to-an-mvc-action-or-controller-by-ip-address-using-a-custom-action-filter/" title="Restrict Access to an MVC Action or Controller by IP Address using a Custom Action Filter" rel="bookmark">Restrict Access to an MVC Action or Controller by IP Address using a Custom Action Filter</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Tuesday, August 9th, 2011, 5:04 pm">August 9, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-135" class="post-135 post type-post status-publish format-standard hentry category-csharp category-mvc category-programming category-software-development tag-asp-net tag-authorization tag-csharp tag-custom-action-filter tag-ip-address tag-mvc">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/08/09/restrict-access-to-an-mvc-action-or-controller-by-ip-address-using-a-custom-action-filter/" title="Permalink to Restrict Access to an MVC Action or Controller by IP Address using a Custom Action Filter" rel="bookmark">Restrict Access to an MVC Action or Controller by IP Address using a Custom Action Filter</a></h1>
 
-					<p>Scenario: You want to lock down access to a particular action or entire controller in your MVC application via the users IP address.&#160; This can be particularly useful if you would like to restrict the Admin portion of your website to just your company’s IP address range.</p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Scenario: You want to lock down access to a particular action or entire controller in your MVC application via the users IP address.&#160; This can be particularly useful if you would like to restrict the Admin portion of your website to just your company’s IP address range.</p>
 <p>There are several ways to accomplish this task. IIS allows you to restrict by IP Address but what if you want to do it programmatically…</p>
 <p> <a href="http://randyburden.com/blog/2011/08/09/restrict-access-to-an-mvc-action-or-controller-by-ip-address-using-a-custom-action-filter/#more-135" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development/programming/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/category/software-development/mvc//index.html" rel="tag">MVC</a>, <a href="http://randyburden.com/blog/category/software-development/programming//index.html" rel="tag">Programming</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/asp-net//index.html" rel="tag">ASP.NET</a>, <a href="http://randyburden.com/blog/tag/authorization//index.html" rel="tag">Authorization</a>, <a href="http://randyburden.com/blog/tag/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/tag/custom-action-filter//index.html" rel="tag">Custom Action Filter</a>, <a href="http://randyburden.com/blog/tag/ip-address//index.html" rel="tag">IP Address</a>, <a href="http://randyburden.com/blog/tag/mvc//index.html" rel="tag">MVC</a></span> | <a href="http://randyburden.com/blog/2011/08/09/restrict-access-to-an-mvc-action-or-controller-by-ip-address-using-a-custom-action-filter/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/08/09/restrict-access-to-an-mvc-action-or-controller-by-ip-address-using-a-custom-action-filter/#respond" title="Comment on Restrict Access to an MVC Action or Controller by IP Address using a Custom Action Filter">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development/programming/csharp//index.html" title="View all posts in C#" rel="category tag">C#</a>, <a href="http://randyburden.com/blog/category/software-development/mvc//index.html" title="View all posts in MVC" rel="category tag">MVC</a>, <a href="http://randyburden.com/blog/category/software-development/programming//index.html" title="View all posts in Programming" rel="category tag">Programming</a>, <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>			</p>
 			
-			
-			
-			<div id="post-124" class="post-124 post type-post status-publish format-standard hentry category-software-development category-sql tag-cursor tag-procedural tag-set-based tag-t-sql">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/asp-net//index.html" rel="tag">ASP.NET</a>, <a href="http://randyburden.com/blog/tag/authorization//index.html" rel="tag">Authorization</a>, <a href="http://randyburden.com/blog/tag/csharp//index.html" rel="tag">C#</a>, <a href="http://randyburden.com/blog/tag/custom-action-filter//index.html" rel="tag">Custom Action Filter</a>, <a href="http://randyburden.com/blog/tag/ip-address//index.html" rel="tag">IP Address</a>, <a href="http://randyburden.com/blog/tag/mvc//index.html" rel="tag">MVC</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/08/09/restrict-access-to-an-mvc-action-or-controller-by-ip-address-using-a-custom-action-filter/" title="Permalink to Restrict Access to an MVC Action or Controller by IP Address using a Custom Action Filter" rel="bookmark" class="permalink"><span class="month">Aug</span><span class="sep">&middot;</span><span class="day">09</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-135 -->
 
 				
-				<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/08/04/t-sql-easy-cursor-optimization-by-defining-attributes/" title="T-SQL &#8211; Easy Cursor Optimization by Defining Attributes" rel="bookmark">T-SQL &#8211; Easy Cursor Optimization by Defining Attributes</a></h1><p class="entry-meta"><span class="entry-meta-prep entry-meta-prep-author">By</span> <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="randyburden">randyburden</a></span> <span class="entry-meta-prep entry-meta-prep-published">on</span> <abbr class="published" title="Thursday, August 4th, 2011, 3:01 am">August 4, 2011</abbr> </p>
-				<div class="entry-content">
+					
+<article id="post-124" class="post-124 post type-post status-publish format-standard hentry category-software-development category-sql tag-cursor tag-procedural tag-set-based tag-t-sql">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="http://randyburden.com/blog/2011/08/04/t-sql-easy-cursor-optimization-by-defining-attributes/" title="Permalink to T-SQL &#8211; Easy Cursor Optimization by Defining Attributes" rel="bookmark">T-SQL &#8211; Easy Cursor Optimization by Defining Attributes</a></h1>
 
-					<p>When creating lengthy T-SQL queries, sometimes a set-based approach just doesn&#8217;t cut it.</p>
+				<div class="entry-meta">
+			<span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="http://randyburden.com/blog/author/randyburden//index.html" title="View all posts by randyburden" rel="author">randyburden</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>When creating lengthy T-SQL queries, sometimes a set-based approach just doesn&#8217;t cut it.</p>
 <p>So when you find yourself going with a procedural-based approach and using a Cursor like a foreach loop, be sure to check out the the available attributes for Cursors to boost performance.</p>
 <p> <a href="http://randyburden.com/blog/2011/08/04/t-sql-easy-cursor-optimization-by-defining-attributes/#more-124" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
-
-				</div><!-- .entry-content -->
-
-				<p class="entry-utility"><span class="category"><span class="before">Posted in </span><a href="http://randyburden.com/blog/category/software-development//index.html" rel="tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/sql//index.html" rel="tag">SQL</a></span> <span class="post_tag"><span class="before">| Tagged </span><a href="http://randyburden.com/blog/tag/cursor//index.html" rel="tag">cursor</a>, <a href="http://randyburden.com/blog/tag/procedural//index.html" rel="tag">procedural</a>, <a href="http://randyburden.com/blog/tag/set-based//index.html" rel="tag">set-based</a>, <a href="http://randyburden.com/blog/tag/t-sql//index.html" rel="tag">t-sql</a></span> | <a href="http://randyburden.com/blog/2011/08/04/t-sql-easy-cursor-optimization-by-defining-attributes/" class="permalink">Permalink</a> | <a class="comments-link" href="http://randyburden.com/blog/2011/08/04/t-sql-easy-cursor-optimization-by-defining-attributes/#respond" title="Comment on T-SQL &#8211; Easy Cursor Optimization by Defining Attributes">Leave a response</a></p>
-			</div><!-- .hentry -->
-
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+								<p class="cat-links taxonomy-links">
+				Posted in <a href="http://randyburden.com/blog/category/software-development//index.html" title="View all posts in Software Development" rel="category tag">Software Development</a>, <a href="http://randyburden.com/blog/category/software-development/sql//index.html" title="View all posts in SQL" rel="category tag">SQL</a>			</p>
 			
-			    <script type="text/javascript">
+						<p class="tag-links taxonomy-links">
+				Tagged <a href="http://randyburden.com/blog/tag/cursor//index.html" rel="tag">cursor</a>, <a href="http://randyburden.com/blog/tag/procedural//index.html" rel="tag">procedural</a>, <a href="http://randyburden.com/blog/tag/set-based//index.html" rel="tag">set-based</a>, <a href="http://randyburden.com/blog/tag/t-sql//index.html" rel="tag">t-sql</a>			</p>
+					
+		<p class="date-link"><a href="http://randyburden.com/blog/2011/08/04/t-sql-easy-cursor-optimization-by-defining-attributes/" title="Permalink to T-SQL &#8211; Easy Cursor Optimization by Defining Attributes" rel="bookmark" class="permalink"><span class="month">Aug</span><span class="sep">&middot;</span><span class="day">04</span></a></p>
+
+			</footer><!-- #entry-meta -->
+	</article><!-- #post-124 -->
+
+				    <script type="text/javascript">
     // <![CDATA[
         var disqus_shortname = 'randyburden';
         (function () {
@@ -257,27 +375,30 @@ Masking a phone number field is relatively easy by utilizing one of the many jQu
     //]]>
     </script>
 
+					<nav id="nav-below">
+		<h1 class="assistive-text section-heading">Post navigation</h1>
+
+	
+				<div class="nav-previous"><a href="http://randyburden.com/blog/page/2.html" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		
+		
+	
+	</nav><!-- #nav-below -->
+	
 			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+			
+			
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
 		
-		</div> <!-- .hfeed -->
-
-		<div class="pagination loop-pagination"><span class='page-numbers current'>1</span>
-<a class='page-numbers' href='http://randyburden.com/blog//index.html/page/2/'>2</a>
-<a class="next page-numbers" href="http://randyburden.com/blog//index.html/page/2/">Next &raquo;</a></div>
-
-	</div><!-- #content -->
-
-	
-
-		
-	
-	<div id="sidebar-primary" class="sidebar">
-
-		<div id="text-2" class="widget widget_text"><div class="widget-inside">			<div class="textwidget"><p><a href="http://stackoverflow.com/users/670028/randy-burden"><br />
-<img src="http://stackoverflow.com/users/flair/670028.png?theme=clean" width="208" height="58" alt="profile for Randy Burden at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Randy Burden at Stack Overflow, Q&amp;A for professional and enthusiast programmers"><br />
-</a></p>
-</div>
-		</div></div>		<div id="recent-posts-2" class="widget widget_recent_entries"><div class="widget-inside">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+<div id="supplementary" class="three">
+		<div id="first" class="widget-area" role="complementary">
+				<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
 					<li>
 				<a href="http://randyburden.com/blog/2012/11/14/querying-over-multiple-child-collections-with-nhibernate-part-2/" title="Querying Over Multiple Child Collections With NHibernate Part 2">Querying Over Multiple Child Collections With NHibernate Part 2</a>
 						</li>
@@ -294,7 +415,10 @@ Masking a phone number field is relatively easy by utilizing one of the many jQu
 				<a href="http://randyburden.com/blog/2011/10/25/integrating-structuremap-in-an-mvc-3-project-dead-simple/" title="Integrating StructureMap in an MVC 3 Project = Dead Simple">Integrating StructureMap in an MVC 3 Project = Dead Simple</a>
 						</li>
 				</ul>
-		</div></div><div id="archives-2" class="widget widget_archive"><div class="widget-inside"><h3 class="widget-title">Archives</h3>		<ul>
+		</aside>	</div><!-- #first .widget-area -->
+	
+		<div id="second" class="widget-area" role="complementary">
+		<aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
 			<li><a href='http://randyburden.com/blog/2012/11/' title='November 2012'>November 2012</a></li>
 	<li><a href='http://randyburden.com/blog/2012/09/' title='September 2012'>September 2012</a></li>
 	<li><a href='http://randyburden.com/blog/2012/08/' title='August 2012'>August 2012</a></li>
@@ -304,7 +428,10 @@ Masking a phone number field is relatively easy by utilizing one of the many jQu
 	<li><a href='http://randyburden.com/blog/2011/08/' title='August 2011'>August 2011</a></li>
 	<li><a href='http://randyburden.com/blog/2011/07/' title='July 2011'>July 2011</a></li>
 		</ul>
-</div></div><div id="categories-2" class="widget widget_categories"><div class="widget-inside"><h3 class="widget-title">Categories</h3>		<ul>
+</aside>	</div><!-- #second .widget-area -->
+	
+		<div id="third" class="widget-area" role="complementary">
+		<aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
 	<li class="cat-item cat-item-9"><a href="http://randyburden.com/blog/category/software-development/dot-net-user-groups//index.html" title="View all posts filed under .NET User Groups">.NET User Groups</a>
 </li>
 	<li class="cat-item cat-item-10"><a href="http://randyburden.com/blog/category/software-development/browser-bugs//index.html" title="View all posts filed under Browser Bugs">Browser Bugs</a>
@@ -336,31 +463,18 @@ Masking a phone number field is relatively easy by utilizing one of the many jQu
 	<li class="cat-item cat-item-8"><a href="http://randyburden.com/blog/category/visual-studio-2010//index.html" title="View all posts filed under Visual Studio 2010">Visual Studio 2010</a>
 </li>
 		</ul>
-</div></div>
-	</div><!-- #sidebar-primary .aside -->
+</aside>	</div><!-- #third .widget-area -->
+	</div><!-- #supplementary -->
+		<div id="site-info">
 
-	
-
-		
-		
-		</div> <!-- .wrapper -->
-
-	</div> <!-- #container -->
-
-	
-	
-	<div id="footer">
-
-		
-		<div class="wrapper">
-			<p class="copyright">&#169; 2012 <a class="site-link" href="http://randyburden.com/blog/" title="The Habitual Developer"><span>The Habitual Developer</span></a> - Randy Burden&#039;s Software Development Related Ramblings.</p>		</div>
-
-		
-	</div> <!-- #footer -->
-
-	
-</div> <!-- #body-container -->
-
+      &#169; 2012 <a href="http://randyburden.com" target="_blank">Randy Burden</a>
+      <span class="sep"> | </span>
+      <a href="http://randyburden.com/blog/about/">About</a>
+      <br />
+      May God bless you. :)
+    </div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
 
 <script type='text/javascript' src='http://randyburden.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
 <script type='text/javascript' src='http://randyburden.com/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCSharp.js?ver=3.0.83c'></script>
@@ -399,7 +513,6 @@ Masking a phone number field is relatively easy by utilizing one of the many jQu
 	SyntaxHighlighter.defaults['toolbar'] = false;
 	SyntaxHighlighter.all();
 </script>
-<script type='text/javascript' src='http://randyburden.com/blog/wp-content/themes/nifty/library/js/drop-downs.js?ver=1.0'></script>
 
 </body>
 </html>
